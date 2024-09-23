@@ -109,7 +109,7 @@ frame_pHs = [3, 5, 7, 9, 11]  # pH values represented by the files
 pH_values = []
 
 for pH in frame_pHs:
-    image_path = f'E:\\pH gradient\\0 rpm_trimmed_frame_pH{pH}.png'
+    image_path = f'[FILE PATH]'
     pH_value = analyze_pH_change(image_path)
     if pH_value is not None:
         pH_values.append((pH, pH_value))
