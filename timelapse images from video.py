@@ -2,7 +2,10 @@ from moviepy.editor import VideoFileClip
 
 # Define video files and parameters
 video_files = {
-    "[FILE NAME]": {"start_time": 0, "end_time": 120} #in seconds
+    "0 rpm.mp4": {"start_time": 0, "end_time": 120},
+    "500 rpm.mp4": {"start_time": 0, "end_time": 120},
+    "1000 rpm.mp4": {"start_time": 0, "end_time": 120},
+    "1500 rpm.mp4": {"start_time": 0, "end_time": 120}
 }
 
 for video_file, params in video_files.items():
